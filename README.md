@@ -1,3 +1,3 @@
 # Amazon-clone
-My first project
+My first project.
 this is my first git repository
