@@ -379,7 +379,7 @@ ul a {
 }
 
 /** Nav-bar**/
-@media (max-width:600px) {
+@media (max-width:500px) {
     .navbar {
         height: 42px;
         width: 100%;
@@ -424,7 +424,7 @@ ul a {
     }
 
     .search-icon {
-        width: 41px;
+        width: 36px;
     }
 
     .search-icon i {
@@ -457,7 +457,7 @@ ul a {
 }
 
 /** Panel**/
-@media (max-width:600px) {
+@media (max-width:500px) {
     .panel {
         width: 100%;
     }
@@ -490,12 +490,14 @@ ul a {
     .panel-all {
         display: flex;
         align-items: center;
+        margin-left: 6px;
+        font-size: 0.66rem;
     }
 
-    .panel-all p {
+    /* .panel-all p {
         margin-left: 6px;
         font-size: 0.60rem;
-    }
+    } */
 
     .panel-all i {
         font-size: 0.70rem;
@@ -504,7 +506,7 @@ ul a {
 }
 
 /** hero section **/
-@media (max-width:600px) {
+@media (max-width:500px) {
     .hero-section {
         width: 100%;
 
@@ -514,7 +516,7 @@ ul a {
 }
 
 /** shop section **/
-@media (max-width:600px) {
+@media (max-width:500px) {
     .shop-section {
         flex-wrap: wrap;
     }
@@ -624,7 +626,7 @@ ul a {
 }
 
 /** shop section banner **/
-@media (max-width:600px) {
+@media (max-width:500px) {
     .shop-section-banner {
         display: flex;
         justify-content: center;
@@ -643,11 +645,11 @@ ul a {
 }
 
 /** mobile banner **/
-@media (max-width:600px) {
+@media (max-width:500px) {
     .Mobiles {
-        height: 60px;
-        width: 60px;
-        margin-left:2px;
+        height: 66px;
+        width: 66px;
+        margin-left:1px;
     }
 
     .Mobiles-container {
@@ -671,7 +673,7 @@ ul a {
 }
 
 /** foot panel**/
-@media (max-width:600px) {
+@media (max-width:500px) {
     ul a {
         font-size: 0.55rem;
         margin-top: 12px;
@@ -714,10 +716,11 @@ ul a {
     }
 }
 
-/** navbar **/
+/**mobile banner **/
 @media (max-width:360px) {
-    .nav-search {
-        width: 228px;
+    .Mobiles {
+        height: 65px;
+        width: 65px;
+        margin-left:0px;
     }
-
 }
