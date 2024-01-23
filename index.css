@@ -509,7 +509,7 @@ ul a {
         width: 100%;
 
         background-size: cover;
-        height: 100px;
+        height: 125px;
     }
 }
 
@@ -572,11 +572,11 @@ ul a {
         margin-left: 50px;
     } */
     .mini-box-image2 {
-        margin-left: 12px;
+        margin-left: 6px;
     }
     
     .mini-box-image4 {
-        margin-left: 12px;
+        margin-left: 6px;
     }
 
 
@@ -688,7 +688,7 @@ ul a {
     .foot-panel2 {
         background-color: #222f3d;
         color: white;
-        height: 300px;
+        height: 316px;
         display: flex;
         justify-content: space-evenly;
     }
@@ -702,4 +702,22 @@ ul a {
         height: 50px;
         width: 100px;   
     }
+}
+
+/** for 360px screen **/
+@media (max-width:360px) {
+     .box-content {
+        height: 50%;
+        margin-left: 0.10rem;
+        margin-right: 0.30rem;
+       
+    }
+}
+
+/** navbar **/
+@media (max-width:360px) {
+    .nav-search {
+        width: 228px;
+    }
+
 }
